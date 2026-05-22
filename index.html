@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- このファイルが「HTML文書」であることをブラウザに伝える宣言 -->
+
+<html lang="ja">
+<!-- ページ全体を囲む大元のタグ。lang="ja" は日本語のページであることを示す -->
+
+  <head>
+  <!-- ブラウザに伝える設定情報をまとめる場所（画面には表示されない） -->
+
+    <meta charset="UTF-8">
+    <!-- 文字化けを防ぐために、文字コードを UTF-8 に指定する -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- スマートフォンでも画面サイズに合わせて正しく表示されるようにする設定 -->
+
+    <title>Hello, World!</title>
+    <!-- ブラウザのタブに表示されるページタイトル -->
+
+    <style>
+    /* ページの見た目を整える CSS をここに書く */
+
+      body {
+        /* body はページ全体の背景や余白などを設定する */
+        margin: 0;                /* ブラウザが自動で付ける余白をゼロにする */
+        height: 100vh;            /* 画面の高さいっぱいに広げる（vh = 画面の高さ） */
+        display: flex;            /* 子要素を柔軟に配置できる「フレックスボックス」モードにする */
+        justify-content: center;  /* 横方向の中央揃え */
+        align-items: center;      /* 縦方向の中央揃え */
+        background-color: #f0f4f8;/* 背景色（薄いグレー） */
+      }
+
+      h1 {
+        /* h1 は最も大きな見出しタグ */
+        font-size: 4rem;          /* 文字サイズ（rem はブラウザ基準サイズの倍数） */
+        color: #2d3748;           /* 文字色（濃いグレー） */
+        font-family: sans-serif;  /* フォントの種類（ゴシック系） */
+      }
+    </style>
+  </head>
+
+  <body>
+  <!-- 画面に実際に表示される内容をここに書く -->
+
+    <h1>Hello, World!</h1>
+    <!-- h1 タグで囲んだテキストが大きな見出しとして表示される -->
+
+  </body>
+
+</html>
+<h1>Hello, World!</h1>
+<p>このページは私が初めて作ったページです。</p>
